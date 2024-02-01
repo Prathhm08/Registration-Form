@@ -1,0 +1,37 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <div class="screen-1">
+      <form action="/login" method="post">
+        <h1>Login</h1>
+        <div class="email input-box">
+          <label for="email">Email Address</label>
+          <input type="email" name="email" placeholder="abc@gmail.com" />
+          <i class="bx bxs-user"></i>
+        </div>
+
+        <div class="password input-box">
+          <label for="password">Password</label>
+          <input type="password" name="password" placeholder="********" />
+          <i class="bx bxs-lock"></i>
+
+        </div>
+
+        <button class="login btn">Login</button>
+        <div class="register-link">
+          <p>Not registered?<a href="/signup">Create a new account</a></p></div>
+      </form>
+    </div>
+  </body>
+</html>
