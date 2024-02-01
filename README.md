@@ -11,11 +11,10 @@ Node.js: Download and install Node.js from https://nodejs.org/
 Nodemon: Install globally using npm install -g nodemon
 ## Setup Instructions
 
-Clone the Repository:
-
-Bash
-git clone https://github.com/your-username/registration-form.git
-cd registration-form
+**Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/registration-form.git
+   cd registration-form
 Use code with caution. Learn more
 Install Dependencies:
 
