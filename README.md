@@ -15,3 +15,7 @@ This repository contains a simple registration form implemented using HTML, CSS,
    ```bash
    git clone https://github.com/your-username/registration-form.git
    cd registration-form
+## Install Dependencies:
+
+```bash
+npm install
